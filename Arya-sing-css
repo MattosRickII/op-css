@@ -1,0 +1,13 @@
+.say{width:500px;height: 250px;overflow:hidden; background-color: #eee;}
+.myn{width:250px;height: 250px;background:url(http://i.imgur.com/bZEaPq6.png);float:left;-webkit-transition: all 2s ease-in-out;-moz-transition: all 2s ease-in-out;-o-transition: all 2s ease-in-out;transition: all 2s ease-in-out;}
+.myn2{width: 250px;height: 250px;background:url(http://i.imgur.com/bZEaPq6.png); background-position: right;float:right;-webkit-transition: all 2s ease-in-out;-moz-transition: all 2s ease-in-out;-o-transition: all 2s ease-in-out;transition: all 2s ease-in-out;}
+.say:hover .myn{-webkit-transition: all 1s ease-in-out;-moz-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;transition: all 1s ease-in-out;margin-left:-140px;}
+.say:hover .myn2{-webkit-transition: all 1s ease-in-out;-moz-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;transition: all 1s ease-in-out;margin-right:-140px;}
+.river{width: 500px;height:250px;position:relative;-webkit-transition: all 1s ease-in-out;-moz-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;transition: all 1s ease-in-out; top: 300px;display:block;}
+.say:hover .river{top:10px;-webkit-transition: all 2s ease-in-out;-moz-transition: all 2s ease-in-out;-o-transition: all 2s ease-in-out;
+ transition: all 2s ease-in-out;}
+.crym{width:100px; font:9px consolas;margin:5px;height:200px;padding:5px;overflow:auto;text-align:justify;float:left; margin-left: 20px;}
+.crym b{font-size:11px;color:#90574b;}
+.ariv {width:100px;float:right; margin-right: 20px; font-family: consolas; font-size: 10px; text-transform: uppercase; color: #111;}
+.ariv a {width: 80px; color: #fff; background-color: #916353; color: white; display: inline-block; font-family: calibri; font-size: 10px; font-style: italic; line-height: 100%; padding: 10px; text-align: center; text-transform: uppercase;-webkit-transition-duration: .7s; -moz-transition-duration: .7s; -o-transition-duration: .7s; margin-top: 10px;}
+.ariv a:hover{background-color: white; color: #90574b;}
